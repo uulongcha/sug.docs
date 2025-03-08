@@ -1,0 +1,22 @@
+:root {
+  --white: #f8f9fa;
+  --gray: #e9ecef;
+}
+
+body {
+  background: var(--white);
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.markdown-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: none;
+  box-shadow: none;
+}
+
+nav.app-name {
+  background: var(--white);
+  border-bottom: 1px solid var(--gray);
+}
